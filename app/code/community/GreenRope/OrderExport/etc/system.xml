@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<config>
+    <sections>
+        <greenrope translate="label" module="orderexport">
+            <label>GreenRope</label>
+            <tab>sales</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>980</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <settings translate="label">
+                    <label>GreenRope Order Export Settings</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+						<GreenRopeUsername translate="label comment">
+							<label>GreenRope User Name</label>
+							<comment>
+								Enter the user name for the GreenRope account you would like to export Magento data to.
+							</comment>
+							<frontend_type>text</frontend_type>
+							<sort_order>1</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</GreenRopeUsername>
+						<GreenRopePassword translate="label comment">
+							<label>GreenRope Password</label>
+							<comment>
+								Enter the password for the GreenRope account you would like to export Magento data to.
+							</comment>
+							<frontend_type>password</frontend_type>
+							<sort_order>2</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</GreenRopePassword>
+						<GreenRopeGroup translate="label comment">
+							<label>GreenRope Group</label>
+							<comment>
+								Enter the group name for the GreenRope group you would like to export Magento data to.
+							</comment>
+							<frontend_type>text</frontend_type>
+							<sort_order>3</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</GreenRopeGroup>
+					</fields>
+				</settings>
+			</groups>
+		</greenrope>
+	</sections>
+</config>
+

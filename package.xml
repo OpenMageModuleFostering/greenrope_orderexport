@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package>
+    <name>GreenRope_OrderExport</name>
+    <version>1.0.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This extension sends order information, customer, and item information to the GreenRope CRM software.</summary>
+    <description>Do you use Magento for your ecommerce? If so, take your ecommerce even further with the new GreenRope-Magento integration. We have now made it even easier to streamline your sales and marketing efforts. &#xD;
+&#xD;
+Feature Highlights and User Benefits:&#xD;
+&#xD;
+    * Import Magento store items and item categories into GreenRope&#xD;
+&#xD;
+    * Import Magento customers into GreenRope&#xD;
+&#xD;
+    * Import Magento orders to GreenRope&#xD;
+    &#xD;
+    * Configure Magento to send items, item categories, customer data and order data to GreenRope when subsequent orders are taken from Magento&#xD;
+&#xD;
+    Orders can trigger workflows and events in GreenRope such as emails and drip campaigns&#xD;
+&#xD;
+The ability to trigger email campaigns increases efficiency and productivity, while greatly enhancing the customer experience. Now ecommerce businesses using Magento and GreenRope can streamline their follow up, as well as track their customers orders within the CRM. This allows you to, again, gain a more holistic view of the customer, their needs, and ensures more personalized follow up and future engagements. &#xD;
+</description>
+    <notes>You need to have a GreenRope account to make use of this extension.  You may sign up for one at http://www.greenrope.com.</notes>
+    <authors><author><name>Daniel Watkins</name><user>dwatkins1234</user><email>dwatkins@wwzard.com</email></author></authors>
+    <date>2014-03-21</date>
+    <time>20:22:48</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="GreenRope_OrderExport.xml" hash="6b5be39de1715e3f6cac19f1ecfdbc8d"/></dir></target><target name="magecommunity"><dir name="GreenRope"><dir name="OrderExport"><dir name="Helper"><file name="Data.php" hash="cb219a195eb69d4987b6b99e2e369752"/></dir><dir name="Model"><file name="Export.php" hash="8e6c69f4bdcb0b44d2995a4ed0c80728"/><file name="Observer.php" hash="7667a35ce56b20af30375d94d3606ab1"/></dir><dir name="etc"><file name="config.xml" hash="bde89d19793c7741e144e40ebfd4704a"/><file name="system.xml" hash="6bc27ef8f7310d811a81a71b60926ba0"/></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.0.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

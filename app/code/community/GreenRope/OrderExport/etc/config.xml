@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <config>
+        <modules>
+        <GreenRope_OrderExport>
+            <version>0.9.0</version>
+        </GreenRope_OrderExport>
+        </modules>
+        <global>
+        <helpers>
+            <orderexport>
+            <class>GreenRope_OrderExport_Helper</class>
+            </orderexport>
+        </helpers>
+        <models>
+            <greenrope_orderexport>
+                <class>GreenRope_OrderExport_Model</class>
+            </greenrope_orderexport>
+        </models>
+        <events>
+            <sales_order_place_after>
+                <observers>
+                    <greenrope_orderexport>
+                        <class>greenrope_orderexport/observer</class>
+                        <method>exportOrder</method>
+                    </greenrope_orderexport>
+                </observers>
+            </sales_order_place_after>
+        </events>
+        </global>
+		<adminhtml>
+			<acl>
+				<resources>
+					<admin>
+						<children>
+							<system>
+								<children>
+									<config>
+										<children>
+											<greenrope translate="title" module="orderexport">
+												<title>GreenRope Order Export Settings</title>
+											</greenrope>
+										</children>
+									</config>
+								</children>
+							</system>
+						</children>
+					</admin>
+				</resources>
+			</acl>
+    </adminhtml>		
+    </config>
+	
