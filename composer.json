@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/GreenRope_OrderExport",
+    "name": "openmage-module-fostering\/greenrope_orderexport",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "This extension sends order information, customer, and item information to the GreenRope CRM software.",
     "authors": [
